@@ -1,0 +1,84 @@
+body
+ {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+
+}
+
+.App {
+  border: 1px solid #ccc;
+  margin: 50px auto;
+  padding: 20px 15px;
+  width: 500px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 
+{
+  color: gray;
+  text-align: center;
+}
+.Container 
+{
+  color: #666;
+}
+.Container ul 
+{
+
+  padding: 0;
+}
+.Container ul li 
+{
+  margin-bottom: 20px;
+  padding: 8px 12px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type:" "; 
+  overflow-wrap: break-word;
+}
+
+.Container ul li button
+{
+  background-color: #f44336;
+  color: #000;
+  border: none;
+  padding: 6px 12px;
+  margin-left: 8px;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: right;
+}
+
+.Container ul li button:hover 
+{
+  background-color: red;
+}
+
+input[type="text"] 
+{
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button
+{
+  padding: 6px 10px;
+  border: none;
+  background-color: #fa0;
+  color: #000;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button:hover 
+{
+  background-color: rgb(190, 136, 28);
+}
